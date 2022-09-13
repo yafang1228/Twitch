@@ -1,0 +1,212 @@
+@charset "UTF-8"
+
+/*共通部分---------------------------------*/
+html{
+    font-size: 100%;
+}
+body{
+    font-family:"Microsoft JhengHei";
+    line-height: 1.7;
+    color:#474747;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+/*HEADER---------------------------------*/
+.logo{
+    width: 150px;
+    margin-top: 8px;
+}
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li{
+    margin-left: 10px;
+}
+.main-nav a{
+    color:#474747;
+}
+.main-nav a:hover{
+    color:#ffb4a2;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+/*主頁----------------------------------*/
+.home-content{
+    text-align: center;
+    margin-top: 5%;
+}
+.home-content p{
+    font-size: 1.1rem;
+    margin: 10px 0 42px;
+}
+/*標題----------------------------------*/
+.page-title{
+    font-size: 3rem;
+    font-family:"Microsoft JhengHei";
+    text-transform: uppercase;
+    font-weight: normal;
+}
+/*按鈕----------------------------------*/
+.button {
+    font-size: 1.1rem;
+    background: #b5838d;
+    color: #fff;
+    border-radius: 8px;
+    padding: 18px 32px;
+}
+.button:hover{
+    background:#ffb4a2;
+}
+/*首頁背景圖----------------------------*/
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url(../images/main-bg);
+    min-height: 97.5vh;
+}
+#home .page-title{
+    text-transform: none;
+}
+
+/*ABOUT---------------------------------*/
+#about{
+    background-image: url(../images/about-bg);
+    height:270px;
+    margin-bottom: 40px;
+}
+#about .page-title{
+    text-align: center;
+}
+
+/*FOOTER----------------------------------*/
+footer{
+    background: #b5838d;
+    text-align: center;
+    padding: 1px;px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 0.87rem;
+}
+/*ABOUT左邊-------------------------------*/
+article{
+    width: 60%;
+}
+.about-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.post-info{
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+.post-date{
+    background: #b5838d;
+    border-radius: 50%;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    font-size: 1.6rem;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    padding-top: 10px;
+}
+.post-date span{
+    font-size: 1rem;
+    border-top: 1px rgba(255, 255, 255, .5) solid;
+    padding-top: 6px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+.post-title{
+    font-family:"Microsoft JhengHei" ;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.post-title,.post-cat{
+    margin-left: 120px;
+}
+article img{
+    margin-bottom: 20px;
+}
+article p{
+    margin-bottom: 1rem;
+}
+
+/*ABOUT右邊-----------------------------*/
+aside{
+    width: 25%;
+}
+.sub-title{
+    font-size: 1.4rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #474747 solid;
+    font-weight: normal;
+}
+aside p{
+    padding: 5px 5px;
+}
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+.sub-menu a{
+    color: #474747;
+    padding: 8px;
+    display: block;
+}
+.sub-menu a:hover{
+    color: #ffb4a2;
+}
+/*貼圖-----------------------------------*/
+#sticker{
+    background-image: url(../images/about-bg);
+    height:270px;
+    margin-bottom: 40px;
+}
+.sticker-content .page-title{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.sticker-content p{
+    text-align: center;
+    margin-top: 0;
+}
+/*貼圖頁內容-----------------------------*/
+.grid {
+    display: grid;
+    gap:26px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+/*聯絡我---------------------------------*/
+#contact{
+    background-image: url(../images/main-bg);
+    min-height: 97.5vh;
+}
