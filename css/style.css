@@ -144,9 +144,11 @@ article{
     font-family:"Microsoft JhengHei" ;
     font-size: 2rem;
     font-weight: normal;
+    margin-bottom: 0px;
 }
 .post-title,.post-cat{
     margin-left: 120px;
+    margin-top: 0px;
 }
 article img{
     margin-bottom: 20px;
@@ -171,6 +173,7 @@ aside p{
 .sub-menu{
     margin-bottom: 60px;
     list-style: none;
+    padding-left: 0px;
 }
 .sub-menu li{
     border-bottom: 1px #ddd solid;
