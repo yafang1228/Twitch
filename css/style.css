@@ -213,3 +213,12 @@ aside p{
     background-image: url(../images/main-bg);
     min-height: 97.5vh;
 }
+/*連絡我表單-----------------------------*/
+form div{
+    margin-bottom: 14px;
+}
+label{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    display: block;
+}
