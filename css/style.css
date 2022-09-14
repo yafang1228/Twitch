@@ -246,6 +246,9 @@ input[type="submit"]{
     cursor: pointer;
     line-height: 1;
 }
+.wrapper .h2{
+    padding: 50%;
+}
 /*GOOGLE地圖-----------------------------*/
 #location{
     padding: 4% 0;
